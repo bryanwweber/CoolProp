@@ -28,8 +28,8 @@
 	branch = master
 [submodule "externals/cppformat"]
 	path = externals/cppformat
-	url = https://github.com/cppformat/cppformat.git
-	branch = master
+	url = https://github.com/fmtlib/fmt.git
+	branch = 3.0.1
 [submodule "externals/ExcelAddinInstaller"]
 	path = externals/ExcelAddinInstaller
 	url = https://github.com/CoolProp/ExcelAddinInstaller.git
