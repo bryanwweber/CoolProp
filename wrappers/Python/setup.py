@@ -39,19 +39,6 @@ def recursive_collect_includes():
 
 if __name__=='__main__':
 
-    # Trying to change the standard library for C++
-    import platform
-    try:
-        macVersion = platform.mac_ver()[0].split('.')
-        if int(macVersion[0]) >= 10 and int(macVersion[1]) > 8:
-            os.environ["CC"] = "gcc"
-            os.environ["CXX"] = "g++"
-            print('switching compiler to g++ for OSX')
-    except:
-        pass
-
-
-
     # ******************************
     #       CMAKE OPTIONS
     # ******************************
